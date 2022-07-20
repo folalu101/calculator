@@ -13,17 +13,28 @@
 </head>
 <body>
     <div class="container">
-        <h2>Calculator</h2>
-        <div class="form-group">
-            <label for="num1">First Number: </label>
-            <input type="text" class="form-control" id="num-1">
-        </div>
-        <div class="form-group">
-            <label for="num2">Other Number: </label>
-            <input type="text" class="form-control" id="num-2">
-        </div>
+        <h1>Calculator</h1><br>
 
-        <button type="submit" class="btn">Enter</button>
+        <div id="form-holder">
+            <div class="action-button">
+                <button type="button" class="btn-danger">+</button>
+                <button type="button" class="btn-primary">-</button>
+                <button type="button" class="btn-secondary">/</button>
+                <button type="button" class="btn-success">%</button>
+                <button type="button" class="btn-info">*</button>
+            </div><hr>
+            <div class="form-group">
+                <label for="num1">First Number: </label>
+                <input type="text" id="num-1">
+            </div><br>
+            <div class="form-group">
+                <label for="num2">Other Number: </label>
+                <input type="text" id="num-2">
+            </div><br><hr>
+
+            <button type="submit" class="btn-dark">Enter</button>
+
+        </div>
 
     </div>
     
