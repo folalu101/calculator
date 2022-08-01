@@ -2,7 +2,15 @@
     margin: 0;
     padding: 0;
 }
-
+#calculator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #333;
+    padding: 10px;
+    border-radius: 10px;
+}
 button {
     width: 40px;
     height: 40px;
@@ -18,7 +26,7 @@ button {
     width: 88px;
 }
 #result {
-    width: 175px;
+    width: 182px;
     height: 30px;
     margin: 2px;
     background: #EEE;
