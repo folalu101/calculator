@@ -13,5 +13,20 @@ button {
     font-weight: normal;
     border-radius: 10px;
     background-image: linear-gradient(to right, #ccc, #fff);
-
+}
+.del, .back {
+    width: 88px;
+}
+#result {
+    width: 175px;
+    height: 30px;
+    margin: 2px;
+    background: #EEE;
+    text-align: right;
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: none;
+    outline: none;
+    font-weight: bold;
+    font-family: tahoma;
 }
