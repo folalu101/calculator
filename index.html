@@ -13,34 +13,50 @@
 </head>
 <body>
     <div class="container">
-        <h1>Calculator</h1><br>
+        
+        <div id="calculator">
+            <h1>Calculator</h1>
 
-        <div id="form-holder">
-            <div class="action-button">
-                <button type="button" class="btn-danger" id="addition">+</button>
-                <button type="button" class="btn-primary" id="subtraction">-</button>
-                <button type="button" class="btn-secondary" id="division">/</button>
-                <button type="button" class="btn-success" id="modulus">%</button>
-                <button type="button" class="btn-warning" id="multiplication">*</button>
-            </div><hr>
-            <div class="form-group">
-                <label for="num1">First Number: </label>
-                <input type="text" id="num-1">
-            </div><br>
-            <div class="form-group">
-                <label for="num2">Other Number: </label>
-                <input type="text" id="num-2">
-            </div><br><hr>
+            <input type="text" id="result" value="" readonly>
+            <div>
+                <button type="button" class="del">Del</button>
+                <button type="button" class="back"><</button>
+            </div>
 
-            <button type="submit" class="btn-dark">Enter</button>
+            <div>
+                <button type="button" class="calc-btn">7</button>
+                <button type="button" class="calc-btn">8</button>
+                <button type="button" class="calc-btn">9</button>
+                <button type="button" class="calc-btn">X</button>
+            </div>
 
-        </div>
+            <div>
+                <button type="button" class="calc-btn">4</button>
+                <button type="button" class="calc-btn">5</button>
+                <button type="button" class="calc-btn">6</button>
+                <button type="button" class="calc-btn">-</button>
+            </div>
 
-        <div id="result">
-            <h3>Result</h3>
-            <span class="num-1"></span> <span class="num-2"></span>
+            <div>
+                <button type="button" class="calc-btn">1</button>
+                <button type="button" class="calc-btn">2</button>
+                <button type="button" class="calc-btn">3</button>
+                <button type="button" class="calc-btn">+</button>
+            </div>
 
-        </div>
+            <div>
+                <button type="button" class="calc-btn">0</button>
+                <button type="button" class="calc-btn">.</button>
+                <button type="button" class="calc-btn">/</button>
+                <button type="button" class="calc-btn">=</button>
+            </div>
+
+
+            
+
+        </div><br>
+
+        
 
     </div>
     
